@@ -18,6 +18,10 @@ Este projeto demonstra a automação de processos de ETL utilizando SQL Server, 
 
 - `powerbi/`: Relatório do Power BI com as visualizações.
 
+- `database/`: Contém a base de dados utilizada no projeto.
+  - `data/BaseCasos.csv`: Base de dados utilizada para popular a tabela `histCasosTrabalhados`.
+  - `README.md`: Documentação sobre a base de dados.
+
 - `docs/`: Documentação adicional, incluindo diagramas e capturas de tela.
 
 ### Tecnologias Utilizadas
@@ -52,11 +56,15 @@ Este projeto demonstra a automação de processos de ETL utilizando SQL Server, 
 
 - `VALIDATIONS.sql`
 
-2. Execute o script Python:
+2. Carregue os dados da base:
+
+- Utilize o arquivo `database/data/BaseCasos.csv` para popular a tabela `histCasosTrabalhados`.
+
+3. Execute o script Python:
 
 `python python/automatizacao_procedure.py`
 
-3. Abra o arquivo do Power BI localizado em `powerbi/PBI.pbix` para explorar os dados.
+4. Abra o arquivo do Power BI localizado em `powerbi/PBI.pbix` para explorar os dados.
 
 ### Capturas de Tela
 
@@ -77,4 +85,3 @@ Se tiver dúvidas ou sugestões, entre em contato:
 Nome: Tatiani Cristina Dalevedove
 
 Email: engdalevedove@hotmail.com
-
